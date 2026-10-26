@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coord — Plans that make themselves</title>
+  <meta name="description" content="Early access. Coord gives you an assistant that knows when you're free and works things out with your friends' assistants. Join the waitlist.">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b0b0c">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+  <meta name="color-scheme" content="dark light">
+  <meta property="og:title" content="Coord — Plans that make themselves">
+  <meta property="og:description" content="Early access. Your assistant and your friends' assistants find the time. Nobody shares their calendar.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#" aria-label="Coord home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="12.5" cy="16" r="6.5"/><circle cx="19.5" cy="16" r="6.5" class="faint"/></svg>
+        Coord
+      </a>
+      <nav aria-label="Primary">
+        <a href="#how">How it works</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#business">Business</a>
+      </nav>
+      <a class="btn btn-sm" href="#access" data-waitlist>Join the waitlist</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Early access</p>
+          <h1>Plans that make<br>themselves.</h1>
+          <p class="lede">
+            Coord gives you an assistant that knows when you're free, and lets it work things out with
+            your friends' assistants. No group-chat back-and-forth. You get one notification: it's on the calendar.
+          </p>
+          <div class="cta-row">
+            <a class="btn" href="#access" data-waitlist>Join the waitlist</a>
+            <a class="btn btn-ghost" href="demo/">Try the demo</a>
+          </div>
+          <p class="fine">Works with Google Calendar. Microsoft 365 coming soon.</p>
+        </div>
+
+        <figure class="mock" aria-label="Example: Coord planning a dinner for six friends">
+          <div class="mock-bar">
+            <span class="mock-lights" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="mock-title">Crew dinner<small>6 people</small></span>
+          </div>
+          <div class="mock-chat">
+            <p class="m-out" style="--i:0">Dinner with the crew sometime in the next three weeks</p>
+            <p class="m-in" style="--i:1">Checking with 6 assistants.</p>
+            <p class="m-note" style="--i:2">Your assistant shared your free times</p>
+            <p class="m-in" style="--i:3">Done.</p>
+            <div class="m-card" style="--i:4">
+              <div class="m-card-main">
+                <span class="m-cal" aria-hidden="true"><span>Fri</span>6</span>
+                <span>
+                  <span class="m-card-title">Crew dinner</span>
+                  <span class="m-card-when">Fri, Nov 6 · 7 – 9 PM</span>
+                  <span class="m-card-who">You, Sam, Priya, Jordan, Kai and Lena</span>
+                </span>
+              </div>
+              <p class="m-card-foot">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5" /></svg>
+                On your calendar
+              </p>
+            </div>
+          </div>
+          <div class="mock-composer" aria-hidden="true">
+            <span>What do you want to plan?</span>
+            <span class="m-send"><svg viewBox="0 0 24 24"><path d="M12 19V5.5M6 11.5l6-6 6 6" /></svg></span>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="contrast">
+      <div class="wrap contrast-grid">
+        <div>
+          <p class="stat">23 messages</p>
+          <p class="stat-sub">and four days in the group chat, for one dinner that still didn't happen.</p>
+        </div>
+        <div>
+          <p class="stat stat-strong">1 notification</p>
+          <p class="stat-sub">with Coord. Everyone's assistant handled the rest.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="wrap">
+        <p class="eyebrow">How it works</p>
+        <h2>Say what you want. The assistants handle the rest.</h2>
+        <div class="steps">
+          <article>
+            <span class="step-n">01</span>
+            <h3>Ask</h3>
+            <p>Tell Coord what you're planning in your own words. Circles, like Dinner crew and Climbing, are coming soon.</p>
+          </article>
+          <article>
+            <span class="step-n">02</span>
+            <h3>Coordinate</h3>
+            <p>Each person's assistant checks their own calendar and rules, then they compare free time privately to find options that work.</p>
+          </article>
+          <article>
+            <span class="step-n">03</span>
+            <h3>Confirm</h3>
+            <p>Assistants accept within the rules each person set, or ask with one tap. The plan lands on everyone's calendar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section section-alt">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">Private by design</p>
+          <h2>Your friends see the plan. Never your calendar.</h2>
+          <p class="body">
+            Assistants share only that you're free Thursday evening, and only with the coordinator.
+            Event titles, attendees and details never leave your calendar, and are never sent to an AI model.
+          </p>
+        </div>
+        <ul class="features">
+          <li>
+            <h3>You set the rules</h3>
+            <p>Auto-accept dinners on weeknights. Always ask about weekends. Never Mondays.</p>
+          </li>
+          <li>
+            <h3>Nothing commits without you</h3>
+            <p>Your assistant only agrees within your rules. If you don't answer, the answer is no.</p>
+          </li>
+          <li>
+            <h3>Only people you've connected with</h3>
+            <p>Strangers can't add you to plans. You can pause your assistant at any time.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="wrap">
+        <p class="eyebrow">Planned pricing</p>
+        <h2>Free to start. You only pay when a plan happens.</h2>
+        <p class="body">Planned for launch.</p>
+        <div class="tiers">
+          <article class="tier">
+            <h3>Free</h3>
+            <p class="price">$0</p>
+            <p class="tier-sub">About 10 plans a month</p>
+            <ul>
+              <li>Google Calendar</li>
+              <li>Friends and circles <span class="soon">Circles coming soon</span></li>
+              <li>Invite anyone by link <span class="soon">Coming soon</span></li>
+            </ul>
+          </article>
+          <article class="tier tier-main">
+            <h3>Plus</h3>
+            <p class="price">$4<span>/month</span></p>
+            <p class="tier-sub">About 100 plans a month</p>
+            <ul>
+              <li>Everything in Free</li>
+              <li>Recurring plans, like a monthly dinner</li>
+              <li>Multiple calendars</li>
+              <li>15% off extra plans</li>
+            </ul>
+          </article>
+        </div>
+        <p class="fine center">Plans that don't come together are never charged. Friends you invite never pay.</p>
+      </div>
+    </section>
+
+    <section id="business" class="section section-alt">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">Coord for Business · Later</p>
+          <h2>The same assistants, between teams and companies.</h2>
+        </div>
+        <div>
+          <p class="body">
+            Find time with another company's team without the email chain, then coordinate quotes and
+            deliveries across time zones. Built on the same protocol, with SSO, admin policies, audit
+            logs, and a person signing off on anything binding.
+          </p>
+          <a class="link" href="#access" data-waitlist>Tell us about your team →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="access" class="section final">
+      <div class="wrap center">
+        <h2>Stop planning in the group chat.</h2>
+        <p class="body">Join the waitlist for early access.</p>
+        <div class="waitlist-slot">
+          <p class="fine" id="waitlist-fallback">Waitlist isn't open yet.</p>
+          <a class="btn" id="waitlist-open" data-waitlist hidden href="#access">Join the waitlist</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>© 2026 Coord</span>
+      <nav aria-label="Footer">
+        <a href="demo/">Demo</a>
+        <a href="https://github.com/swperb/Coord/blob/main/SECURITY.md">Security</a>
+        <a href="https://github.com/swperb/Coord">GitHub</a>
+        <a href="#access" data-waitlist>Waitlist</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="config.js"></script>
+  <script src="waitlist.js"></script>
+</body>
+</html>
